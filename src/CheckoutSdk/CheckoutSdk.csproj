@@ -35,7 +35,7 @@
   </PropertyGroup>
 
   <ItemGroup Label="Package References">
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup Label=".NET Standard Packages" Condition="'$(TargetFramework)' == 'netstandard1.4' or '$(TargetFramework)' == 'netstandard2.0'">
